@@ -4,4 +4,4 @@ n = int(input('Введите число: '))
 dict = {}
 for i in range(1, n+1):
     dict[i] = (1+1/i)**i
-print(dict, 'сумма значений равна: ', sum(dict.values()))
+print(dict, 'сумма значений равна: ', round(sum(dict.values()), 2))
